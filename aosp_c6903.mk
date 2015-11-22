@@ -44,3 +44,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480 \
     ro.usb.pid_suffix=19E
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D6903,D6902,honami
